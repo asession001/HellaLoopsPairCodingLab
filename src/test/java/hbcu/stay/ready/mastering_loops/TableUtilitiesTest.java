@@ -1,7 +1,7 @@
 package hbcu.stay.ready.mastering_loops;
 
 import org.junit.Assert;
-import org.junit.Test;
+import org.junit.Test; 
 
 
 public class TableUtilitiesTest {
@@ -32,7 +32,7 @@ public class TableUtilitiesTest {
                         "  3 |  6 |  9 | 12 | 15 |\n" +
                         "  4 |  8 | 12 | 16 | 20 |\n" +
                         "  5 | 10 | 15 | 20 | 25 |\n";
-
+  
         String actual = TableUtilities.getSmallMultiplicationTable();
         Assert.assertEquals(expected, actual);
     }
@@ -63,5 +63,4 @@ public class TableUtilitiesTest {
         String actual = TableUtilities.getMultiplicationTable(20);
         Assert.assertEquals(expected, actual);
     }
-
 }
